@@ -1,13 +1,10 @@
-import './App.css';
-
+import MoviesListPage from "./Components/React/Pages/MoviesListPage";
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+        <MoviesListPage />
     </div>
   );
 }
